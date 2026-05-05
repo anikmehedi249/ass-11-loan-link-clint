@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LatestLoansCard from './LatestLoansCard';
-import { data, Link } from 'react-router';
+import { Link } from 'react-router';
 
 const LatestLoans = () => {
     const [featuredLoans, setFeaturedLoans] = useState([]);
@@ -15,8 +15,8 @@ const LatestLoans = () => {
     return (
 
         <div className='flex flex-col justify-center items-center my-5'>
-            <div className='w-11/12 mx-auto my-10'>
-                <h1 className='text-center text-4xl mb-15 font-semibold text-primary'>See Our Latest Loans We Offer </h1>
+            <div className='w-11/12 mx-auto mt-30 mb-10'>
+                <h1 className='text-center text-3xl mb-15 font-semibold text-primary custom-font'>See Our Latest Loans We Offer </h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto mr-2 w-11/12 gap-5'>
                     {
                         featuredLoans.map(loan => <LatestLoansCard key={loan._id} loan={loan}></LatestLoansCard>)

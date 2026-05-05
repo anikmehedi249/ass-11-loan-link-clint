@@ -11,12 +11,12 @@ const Footer = () => {
   <div className='footer sm:footer-horizontal pb-5'>
     <aside>
     <div className='flex items-center gap-2'>
-       <img src='/loanlink_logo.png' className='h-10 w-10' alt="" />
-       <p className='custom-font text-4xl text-primary'>LoanLink</p>
+       <img src='/loanlink_logo.png' className='h-8 w-8' alt="" />
+       <p className='custom-font text-2xl text-primary'>LoanLink</p>
     </div>
     <p className='custom-font text-sm font text-gray-700'>
       <br />
-      Providing reliable financial services since 2020
+      Providing reliable financial<br />  services since 2020
     </p>
 
     

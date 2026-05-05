@@ -4,6 +4,7 @@ import { Outlet } from 'react-router';
 import Footer from './Footer';
 import HeroSlider from '../HeroSlider';
 import LatestLoans from './LatestLoans';
+import HowItWorks from './HowItWorks';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <HeroSlider></HeroSlider>
             <main >
                 <LatestLoans></LatestLoans>
+                <HowItWorks></HowItWorks>
             </main>
         </div>
     );

@@ -11,7 +11,7 @@ const HomeLayout = () => {
                 <nav>
                     <Navbar></Navbar>
                 </nav>
-            <main className='min-h-screen mx-auto'>
+            <main className='min-h-screen mx-auto mb-30'>
                 <Outlet></Outlet>
             </main>
             <Footer></Footer>
