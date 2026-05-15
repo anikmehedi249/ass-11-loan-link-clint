@@ -18,6 +18,7 @@ const MyLoans = () => {
         const [modal, setModal] = useState(false) 
         const [selectedLoan, setSelectedLoan] = useState(null)
         
+        
         const { data: myLoans = [] } = useQuery({
             queryKey:['my-loans'],
             queryFn: async()=>{
